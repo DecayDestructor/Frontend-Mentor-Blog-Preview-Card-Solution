@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+body {
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  max-width: 375px;
+
+  border: 1.75px solid black;
+  border-radius: 25px;
+  box-shadow: 8px 8px black;
+  justify-content: center;
+  align-items: flex-start;
+  transition-property: box-shadow;
+  transition-delay: 0.5s;
+}
+svg {
+  margin-top: 4%;
+  align-self: center;
+  border-radius: 10px;
+}
+button {
+  font-family: "Figtree", sans-serif;
+  margin: 4% 0 1% 6%;
+  width: 25%;
+  height: 30px;
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+.date {
+  font-family: "Figtree", sans-serif;
+  color: black;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+.header {
+  margin: 0;
+  margin-left: 6%;
+  text-decoration: none;
+  color: black;
+  font-family: "Figtree", sans-serif;
+  transition-property: color;
+
+  transition-duration: 0.3s;
+}
+.header:hover {
+  color: hsl(47, 88%, 63%);
+}
+p {
+  color: grey;
+  line-height: 1.2;
+  margin-left: 6%;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+}
+.card-body {
+  margin-right: 6%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 4% 2% 5% 6%;
+}
+.profile-pic {
+  height: 40px;
+}
+.profile-name {
+  font-family: "Figtree", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
